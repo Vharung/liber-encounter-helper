@@ -119,9 +119,11 @@ class LiberEncounterHelper extends HandlebarsApplicationMixin(ApplicationV2) {
       // Récupération du nombre de monstres à partir de l'input juste à côté
       const nbInput = el.parentElement.querySelector("input[name='monster-qty']");
       const nb = parseInt(nbInput?.value) || 1;
+      let hpmonster = doc.system?.hp?.max ?? 0;
+      if(hpmonster==0){hpmonster=doc.system?.psy?.max ?? 0}
 
       // PV totaux (multipliés par le nombre de monstres)
-      totalMonsterHP += (doc.system?.hp?.max ?? 0) * nb;
+      totalMonsterHP += hpmonster * nb;
 
       // Dégâts max (si défini)
       let monDmg = 0;
