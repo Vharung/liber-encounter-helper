@@ -21,7 +21,7 @@
       "path": "lang/fr.json"
     }
   ],
-  "manifest": "modules/liber-encounter-helper/module.json",
-  "download": "https://tonlienverslezipdufichier.fr",
-  "url": "https://leschroniquesdeliber.fr/"
+  "manifest": "https://github.com/Vharung/liber-encounter-helper/module.json",
+  "download": "https://github.com/Vharung/liber-encounter-helper/archive/refs/heads/main.zip",
+  "url": "https://github.com/Vharung/liber-encounter-helper"
 }
