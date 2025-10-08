@@ -10,7 +10,7 @@ class LiberEncounterHelper extends HandlebarsApplicationMixin(ApplicationV2) {
       title: "Assistant de Rencontre - Liber Chronicles",
       icon: "fa-solid fa-scale-balanced"
     },
-    position: { width: 600, height: 500 },
+    position: { width: 650, height: 500 },
     tag: "section",
     classes: ["liber-helper", "sheet"],
     form: false,
