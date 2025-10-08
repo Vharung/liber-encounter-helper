@@ -1,0 +1,27 @@
+{
+  "id": "liber-encounter-helper",
+  "title": "Liber Chronicles - Assistant de Rencontre",
+  "description": "Un module pour calculer la difficulté d’un combat entre les personnages du monde et des monstres du compendium.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Alexandre Crochet",
+      "url": "https://leschroniquesdeliber.fr/"
+    }
+  ],
+  "esmodules": ["scripts/liber-encounter-helper.js"],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "manifest": "modules/liber-encounter-helper/module.json",
+  "download": "https://tonlienverslezipdufichier.fr",
+  "url": "https://leschroniquesdeliber.fr/"
+}
