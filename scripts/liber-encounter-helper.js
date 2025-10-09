@@ -147,12 +147,12 @@ class LiberEncounterHelper extends HandlebarsApplicationMixin(ApplicationV2) {
 
     const ratio = (pj || 1) - (pn || 1);
     let difficulty = "Équilibré";
-
-    if (ratio >=8) difficulty = "Suicidaire"
-    else if (ratio >=2) difficulty = "Difficile"
-    else if (ratio >= -2) difficulty = "Équilibré";
-    else if (ratio >= -8) difficulty = "Facile";
-    else difficulty = "Très Facile";
+    let charRatio =50;
+    if (ratio >=25) {difficulty = "Suicidaire";charRatio=10;}
+    else if (ratio >=15) {difficulty = "Difficile";charRatio=25;}
+    else if (ratio >= 5) {difficulty = "Équilibré";charRatio=50;}
+    else if (ratio >= -5) {difficulty = "Facile";charRatio=75;}
+    else {difficulty = "Très Facile"; charRatio=90;}
 
     // --- Affichage graphique ---
     const bar = root.querySelector(".difficulty-bar");
@@ -161,7 +161,6 @@ class LiberEncounterHelper extends HandlebarsApplicationMixin(ApplicationV2) {
 
     const totalCharPower = charEffective + totalCharHP;
     const totalMonsterPower = monsterEffective + totalMonsterHP;
-    const charRatio = Math.min(100, (totalCharPower / (totalCharPower + totalMonsterPower)) * 100);
     const monsterRatio = 100 - charRatio;
 
     charBar.style.width = `${charRatio}%`;
