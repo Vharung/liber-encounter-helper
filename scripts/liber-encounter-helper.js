@@ -145,7 +145,7 @@ class LiberEncounterHelper extends HandlebarsApplicationMixin(ApplicationV2) {
     const pj = totalMonsterHP / (charEffective || 1);
     const pn = totalCharHP / (monsterEffective || 1);
 
-    const ratio = (pj || 1) - (pn || 1);
+    const ratio = (pj || 1) - (pn || 1);console.log(ratio)
     let difficulty = "Équilibré";
     let charRatio =50;
     if (ratio >=25) {difficulty = "Suicidaire";charRatio=10;}

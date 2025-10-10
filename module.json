@@ -9,7 +9,7 @@
   },
   "authors": [
     {
-      "name": "Vharung",
+      "name": "Alexandre Crochet",
       "url": "https://leschroniquesdeliber.fr/"
     }
   ],
@@ -21,7 +21,7 @@
       "path": "lang/fr.json"
     }
   ],
-  "url": "https://github.com/Vharung/liber-encounter-helper",
-  "manifest": "https://raw.githubusercontent.com/Vharung/liber-encounter-helper/main/module.json",
-  "download": "https://github.com/Vharung/liber-encounter-helper/archive/refs/heads/main.zip"
+  "manifest": "https://github.com/Vharung/liber-encounter-helper/blob/main/module.json",
+  "download": "https://github.com/Vharung/liber-encounter-helper/archive/refs/heads/main.zip",
+  "url": "https://github.com/Vharung/liber-encounter-helper"
 }
