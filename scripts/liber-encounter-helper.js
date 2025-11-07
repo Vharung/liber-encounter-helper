@@ -14,6 +14,7 @@ class LiberEncounterHelper extends HandlebarsApplicationMixin(ApplicationV2) {
     tag: "section",
     classes: ["liber-helper", "sheet"],
     form: false,
+    layout: "main",
     actions: {
       compare: LiberEncounterHelper.compareCombat,
       create: LiberEncounterHelper.createEncounter
