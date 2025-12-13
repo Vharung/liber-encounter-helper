@@ -1,7 +1,7 @@
 {
   "id": "liber-encounter-helper",
   "title": "Liber Chronicles - Assistant de Rencontre",
-  "description": "Un module pour calculer la difficulté d’un combat entre les personnages du monde et des monstres du compendium.",
+  "description": "Un module pour calculer la difficulté d'un combat entre les personnages du monde et des monstres du compendium.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
@@ -21,7 +21,7 @@
       "path": "lang/fr.json"
     }
   ],
-  "manifest": "github.com/Vharung/liber-encounter-helper/blob/main/module.json",
+  "manifest": "https://github.com/Vharung/liber-encounter-helper/blob/main/module.json",
   "download": "https://github.com/Vharung/liber-encounter-helper/archive/refs/heads/main.zip",
   "url": "https://github.com/Vharung/liber-encounter-helper.git"
 }
