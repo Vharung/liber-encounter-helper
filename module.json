@@ -1,19 +1,26 @@
 {
-  "id": "liber-encounter-helper",
-  "title": "Liber Chronicles - Assistant de Rencontre",
-  "description": "Un module pour calculer la difficulté d'un combat entre les personnages du monde et des monstres du compendium.",
+  "id": "libersf-gm-screen",
+  "title": "Liber SF GM Screen",
+  "description": "Un écran de Maître du Jeu complet pour le système Liber SF, offrant des raccourcis, résumés de règles et outils de gestion rapides.",
   "version": "1.0.0",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
   "authors": [
     {
-      "name": "Alexandre Crochet",
-      "url": "https://leschroniquesdeliber.fr/"
+      "name": "Vharung",
+      "url": "https://leschroniquesdeliber.fr",
+      "discord": "AlexandreC#0000"
     }
   ],
-  "esmodules": ["scripts/liber-encounter-helper.js"],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/libersf-gm-screen.js"
+  ],
+  "styles": [
+    "styles/libersf-gm-screen.css"
+  ],
   "languages": [
     {
       "lang": "fr",
@@ -21,7 +28,20 @@
       "path": "lang/fr.json"
     }
   ],
-  "manifest": "https://github.com/Vharung/liber-encounter-helper/blob/main/module.json",
-  "download": "https://github.com/Vharung/liber-encounter-helper/archive/refs/heads/main.zip",
-  "url": "https://github.com/Vharung/liber-encounter-helper.git"
+  "packs": [],
+  "relationships": {
+    "requires": [
+      {
+        "id": "liber-chronicles",
+        "type": "system",
+        "compatibility": { "minimum": "1.0.0" }
+      }
+    ]
+  },
+  "url": "https://github.com/Vharung/libersf-gm-screen",
+  "manifest": "https://raw.githubusercontent.com/Vharung/libersf-gm-screen/main/module.json",
+  "download": "https://github.com/Vharung/libersf-gm-screen/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "bugs": "https://github.com/leschroniquesdeliber/libersf-gm-screen/issues",
+  "changelog": "https://github.com/leschroniquesdeliber/libersf-gm-screen/CHANGELOG.md"
 }
