@@ -1,47 +1,37 @@
 {
   "id": "liber-encounter-helper",
   "title": "Liber Aide de Rencontre",
-  "description": "Un écran de Maître du Jeu complet pour le système Liber, offrant des raccourcis, résumés de règles et outils de gestion rapides.",
+  "description": "Un module pour calculer la difficulté d’un combat entre les personnages du monde et des monstres du compendium.",
   "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14",
+    "maximum": "14"
+  },
   "authors": [
     {
       "name": "Vharung",
       "url": "https://leschroniquesdeliber.fr",
-      "discord": "AlexandreC#0000"
+      "discord": "AlexandreC#0000",
+      "flags": {}
     }
   ],
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "13"
-  },
   "esmodules": [
     "scripts/liber-encounter-helper.js"
-  ],
-  "styles": [
-    "style/liber.css"
   ],
   "languages": [
     {
       "lang": "fr",
       "name": "Français",
-      "path": "lang/fr.json"
+      "path": "lang/fr.json",
+      "flags": {}
     }
   ],
-  "packs": [],
-  "relationships": {
-    "requires": [
-      {
-        "id": "liber-chronicles",
-        "type": "system",
-        "compatibility": { "minimum": "1.0.0" }
-      }
-    ]
-  },
-  "url": "https://github.com/Vharung/libersf-gm-screen",
   "manifest": "https://raw.githubusercontent.com/Vharung/liber-encounter-helper/main/module.json",
   "download": "https://github.com/Vharung/liber-encounter-helper/archive/refs/heads/main.zip",
+  "url": "https://github.com/Vharung/libersf-gm-screen",
   "license": "MIT",
   "bugs": "https://github.com/leschroniquesdeliber/liber-encounter-helper/issues",
-  "changelog": "https://github.com/leschroniquesdeliber/liber-encounter-helper/CHANGELOG.md"
+  "changelog": "https://github.com/leschroniquesdeliber/liber-encounter-helper/CHANGELOG.md",
+  "flags": {}
 }
